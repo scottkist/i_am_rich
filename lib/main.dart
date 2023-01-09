@@ -12,8 +12,7 @@ void main() {
         ),
         body: const Center(
           child: Image(
-            image: NetworkImage(
-                'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Chevrolet_Corvette_C8_Stingray_blue.jpg/280px-Chevrolet_Corvette_C8_Stingray_blue.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
